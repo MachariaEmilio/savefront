@@ -1,11 +1,11 @@
 .body-main {
-  padding: 50px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
 .hero-section {
   background-color: #f0f8ff; 
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .hero-content h1 {
@@ -27,7 +27,9 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
-
+.signup-button:hover {
+  opacity: 0.9;
+}
 .features-section {
   margin-top: 50px;
 }
@@ -52,9 +54,9 @@
 }
 
 .call-to-action {
-  margin-top: 80px;
+ 
   padding: 50px 20px;
-  background-color: #e6f7ff; 
+
 }
 
 .get-started-button {
@@ -75,8 +77,8 @@
     }
 
     .feature {
-        flex: 1 1 auto; /* Allow features to take full width */
-        width: 90%; /* Reduce width on small screens */
-        margin: 10px auto; /* Center features */
+        flex: 1 1 auto; 
+        width: 90%; 
+        margin: 10px auto;
     }
 }

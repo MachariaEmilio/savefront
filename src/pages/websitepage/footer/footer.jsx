@@ -10,7 +10,7 @@ function Footer() {
             We are a company dedicated to providing efficient financial
             solutions. We specialize in incorporating mobile money transfer
             solutions and help our clients save their money by automating their
-            savings.
+            savings after agreering on the saving amount.
           </p>
         </div>
         <div className="footer-section">

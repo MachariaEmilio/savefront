@@ -1,0 +1,14 @@
+.system-dashboard-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.logout-button {
+  background-color: #dc3545; /* Red */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}

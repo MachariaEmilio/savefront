@@ -1,24 +1,18 @@
-
-import './App.css'
-import Body_code from './pages/body/body'
-
-// import Body from './pages/body/body'
-import Footer from './pages/footer/footer'
-import Home from './pages/home/home'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/websitepage/Home/home";
 
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-    <Home/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
     
-    <Body_code/>
+        <Route path="*" element={<div>404 Not Found</div>} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-    <Footer/>
-    </>
-  )
-}
-
-export default App
+export default App;

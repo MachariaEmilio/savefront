@@ -1,17 +1,20 @@
 import React from 'react';
 import './Body.css'; // Create a Body.css file for styling
+import AboutUs from '../about/AboutUs';
 
-function Body_code() {
+function Body_code({onSignupClick}) {
   return (
     <main className="body-main">
       <section className="hero-section">
         <div className="hero-content">
           <h1>Efficient Financial Solutions at Your Fingertips</h1>
           <p>
-            Experience seamless mobile money transfers and automate your
-            savings for a brighter financial future.
+            Experience seamless mobile money transfers and automate your savings
+            for a brighter financial future.
           </p>
-          <button className="signup-button">Sign Up for Free</button>
+          <button className="signup-button" onClick={onSignupClick}>
+            Sign Up for Free
+          </button>
         </div>
       </section>
       <section className="features-section">
@@ -31,10 +34,13 @@ function Body_code() {
           </div>
         </div>
       </section>
+      <AboutUs />
       <section className="call-to-action">
         <h2>Ready to Get Started?</h2>
         <p>Join our community and take control of your finances.</p>
-        <button className="get-started-button">Get Started Today</button>
+        <button className="get-started-button" onClick={onSignupClick}>
+          Get Started Today
+        </button>
       </section>
     </main>
   );
